@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="web-cart.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="top-bar">
+            <div class="logo">
+                <i> <img src="images/user-options/logo-symbol.png" alt=""></i>
+                <h1>Brand</h1>
+            </div>
+
+            <div class="user-icons">
+                <div class="icons"><img src="images/user-options/profile.png"><br><a href="index.html">Profile</a></div>
+                <div class="icons"><img src="images/user-options/message.png"><br><a href="">Message</a></div>
+                <div class="icons"><img src="images/user-options/heart.png"><br><a href="">Orders</a></div>
+                <div class="icons"><img src="images/user-options/cart.png"><br><a href="web-cart.html">My Cart</a></div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="heading">
+        <h1>My Cart(3)</h1>
+    </div>
+
+
+    <div class="container">
+        <div class="cart-items">
+            <div class="items">
+                <div class="item-details">
+                    <img src="images/cloth/2.jpg">
+                    <div class="descripton">
+                        <h4>T-shirts with multiple colors for Men n Womens</h4>
+                        <p>Size: medium, Color: blue, Material: cotton</p>
+                        <p>Seller: Alter</p>
+                        <button id="remove">Remove</button>
+                        <button id="save">Save for later</button>
+                    </div>
+                </div>
+
+                <div class="item-prices">
+                    <strong>$78.00</strong><br>
+                    <select name="" id="">
+                        <option>Qty: 9</option>
+                        <option>Qty: 5</option>
+                        <option>Qty: 3</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item-details">
+                    <img src="images/cloth/5.jpg">
+                    <div class="descripton">
+                        <h4>Blue Jean Travel Bag </h4>
+                        <p>Size: regular, Color: blue, Material: jeans</p>
+                        <p>Seller: James</p>
+                        <button id="remove">Remove</button>
+                        <button id="save">Save for later</button>
+                    </div>
+                </div>
+
+                <div class="item-prices">
+                    <strong>$32.00</strong><br>
+                    <select name="" id="">
+                        <option>Qty: 9</option>
+                        <option>Qty: 5</option>
+                        <option>Qty: 3</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="items">
+                <div class="item-details">
+                    <img src="images/cloth/3.jpg">
+                    <div class="descripton">
+                        <h4>Heavy Brown Winter Jacket</h4>
+                        <p>Size: large, Color: brown, Material: rexsin</p>
+                        <p>Seller: Monty</p>
+                        <button id="remove">Remove</button>
+                        <button id="save">Save for later</button>
+                    </div>
+                </div>
+
+                <div class="item-prices">
+                    <strong>$120.00</strong><br>
+                    <select name="" id="">
+                        <option>Qty: 9</option>
+                        <option>Qty: 5</option>
+                        <option>Qty: 3</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button id="back">Back to shop</button>
+                <button id="remove-all">Remove all</button>
+            </div>
+        </div>
+
+        <div class="cart-total">
+            <div class="coupons">
+                <p>Have any coupons?</p>
+                <input type="text" id="coupon" placeholder="Add coupon">
+                <button>Add</button>
+
+            </div>
+
+            <div class="total">
+
+                <div class="payments">
+                    <div class="charges">
+                        <p>Subtotal:</p>
+                        <p>Discount:</p>
+                        <p>Tax:</p>
+
+                    </div>
+                    <div class="amounts">
+                        <p id="subtotal">$14032.0</p>
+                        <p id="discount">-$60.45</p>
+                        <p id="tax">+$14.0</p>
+                    </div>
+                </div>
+
+                <div class="total-amount">
+                    <h4>Total:</h4>
+                    <strong>$4093.89</strong>
+                </div>
+
+                <button id="checkout">Checkout</button>
+
+                <div class="payment-methods">
+                    <button><img src="images/payment-methods/google-pay.png"></button>
+                    <button><img src="images/payment-methods/visa.png"></button>
+                    <button><img src="images/payment-methods/money.png"></button>
+                    <button id="paypal"><img src="images/payment-methods/social.png"></button>
+                    <button><img src="images/payment-methods/apple-pay.png"></button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="services-section">
+        <div class="service">
+            <img src="images/icons/secure.png" alt="Secure Payment">
+            <div class="service-text">
+                <h4>Secure payment</h4>
+                <p>Have you ever finally just</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="images/icons/customer.png" alt="Secure Payment">
+            <div class="service-text">
+                <h4>Customer support</h4>
+                <p>Have you ever finally just</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="images/icons/delivery.png" alt="Secure Payment">
+            <div class="service-text">
+                <h4>Free delivery</h4>
+                <p>Have you ever finally just</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="saveforlater">
+        <h1>Saved for later</h1>
+        <div class="product-cards">
+            <div class="save-products">
+                <div class="image">
+                    <img src="images/tech/2.jpg" alt="">
+                </div>
+                <div class="details">
+                    <strong>$99.50</strong>
+                    <p>GoPro HERO6 4K Action Camera - Black</p>
+                    <button>Move to cart</button>
+                </div>
+            </div>
+            <div class="save-products">
+                <div class="image">
+                    <img src="images/tech/4.jpg" alt="">
+                </div>
+                <div class="details">
+                    <strong>$99.50</strong>
+                    <p>GoPro HERO6 4K Action Camera - Black</p>
+                    <button>Move to cart</button>
+                </div>
+            </div>
+            <div class="save-products">
+                <div class="image">
+                    <img src="images/tech/8.jpg" alt="">
+                </div>
+                <div class="details">
+                    <strong>$99.50</strong>
+                    <p>GoPro HERO6 4K Action Camera - Black</p>
+                    <button>Move to cart</button>
+                </div>
+            </div>
+            <div class="save-products">
+                <div class="image">
+                    <img src="images/tech/7.jpg" alt="">
+                </div>
+                <div class="details">
+                    <strong>$99.50</strong>
+                    <p>GoPro HERO6 4K Action Camera - Black</p>
+                    <button>Move to cart</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="discount-label">
+        <div class="discount">
+            <h1>Super discount on more than 100 USD</h1>
+            <p>Dive into the world full of items on discount</p>
+        </div>
+        <div class="shopNow-btn">
+            <button>Shop Now</button>
+        </div>
+    </div>
+
+    
+        <!--Footer Section-->
+
+        <footer class="footer">
+
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <img src="images/user-options/logo-symbol.png" alt="">
+                        <span>Brand</span>
+                    </div>
+                    <p>Best information about the company goes here but now lorem ipsum is</p>
+                    <div class="social-icons">
+                        <img src="images/social-icons/facebook3.png" alt="Facebook">
+                        <img src="images/social-icons/twitter3.png" alt="Twitter">
+                        <img src="images/social-icons/linkedin3.png" alt="LinkedIn">
+                        <img src="images/social-icons/instagram3.png" alt="Instagram">
+                        <img src="images/social-icons/youtube3.png" alt="YouTube">
+                    </div>
+                </div>
+    
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Find store</a></li>
+                            <li><a href="#">Categoires</a></li>
+                            <li><a href="#">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Partnership</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Find store</a></li>
+                            <li><a href="#">Categoires</a></li>
+                            <li><a href="#">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Information</h3>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Money Refund</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>For Users</h3>
+                        <ul>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="web-cart.html">My Orders</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- App Section -->
+                <div class="footer-app">
+                    <h3>Get app</h3>
+                    <img src="images/icons/2.png" alt="App Store">
+                    <img src="images/icons/1.png" alt="Google Play">
+                </div>
+            </div>
+    
+            <div class="label">
+                <p>© 2022 Ecommerce.</p>
+                <div class="language-selector">
+                    <img src="images/flags/Property 1=US.png" alt="">
+                    <span>English</span>
+                    <span class="arrow"><img src="images/icons/upload.png" alt=""></span>
+                </div>
+            </div>
+        </footer>
+
+    <script src="web-views.js"></script>
+
+
+
+</body>
+
+</html>
